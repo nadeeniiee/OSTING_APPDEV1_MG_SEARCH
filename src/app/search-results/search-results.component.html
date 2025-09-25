@@ -1,0 +1,17 @@
+<h3>Search Results</h3>
+<div class="card">
+<p *ngIf="filteredResults.length === 0">No results found.</p>
+
+<div *ngFor="let site of filteredResults">
+  <h4><a href="{{ site.url }}" target="_blank">{{ site.title }}</a></h4>
+  <p>{{ site.url }}</p>
+  <p>{{ site.description }}</p>
+</div>
+
+<p *ngIf="filteredResults.length > 0">
+  Total results: {{ filteredResults.length }}
+</p>
+
+
+</div>
+

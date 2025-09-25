@@ -1,0 +1,49 @@
+@import url('https://fonts.google.com/specimen/Zalando+Sans+Expanded');
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 500px;
+    max-width: 90%;
+    gap: 10px;
+}
+  
+.search-box input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+  
+.search-box input:focus {
+    border-color: #4285f4;
+}
+  
+.search-box button {
+    padding: 12px 20px;
+    background: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+  .search-box button:hover {
+    background: #3367d6;
+}
+  
+.recommended {
+    margin-top: 30px;
+}
+  
